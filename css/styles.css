@@ -6,7 +6,9 @@
     --White: hsl(0, 0%, 100%);
 
     --Light-gray: hsl(0, 0%, 81%);
-    --Light-grayish-blue: hsl(210, 46%, 95%);  
+    --Lighter-gray: #8795aa;
+    --Light-grayish-blue: hsl(210, 46%, 95%); 
+    --Lighter-grayish-blue: hsl(203, 8%, 70%);  
 }
 
 *{
@@ -20,31 +22,280 @@ body{
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
+.container{
+    margin: 3em 1em 3em 1em;
+}
 .first-subcontainer{
     background-color: var(--Moderate-violet);
-    background-image: url(../images/bg-pattern-quotation.svg);
-    background-repeat: no-repeat;
-    background-position: top;
-    
+    border-radius: 13px;
+    margin-bottom: 1.4em;
+    position: relative;
+
 }
 
 .first-subcontainer h3{
     color: var(--White);
+    padding: 0.3em 1.8em 0 1.5em;
+    position: relative;
+    bottom: 1.2em;
+    overflow-wrap: break-word;
 }
 
 .first-subcontainer p {
     color: var(--Light-gray);
-    margin-left: 1em;
+    padding: 0 3em 2em 2em;
+    font-size: 14px;
+    line-height: 1.4em;
 }
 
-.first-subcontainer img{
+.second-subcontainer{
+    background-color: var( --Very-dark-grayish-blue);
+    border-radius: 13px;
+    margin-bottom: 1.4em;
+}
+
+.second-subcontainer h3{
+    color: var(--White);
+    padding: 1em 1em 0 1.5em;
+    position: relative;
+    bottom: 1.2em;
+    overflow-wrap: break-word;
+    
+}
+
+.second-subcontainer p {
+    color: var(--Light-gray);
+    padding: 0 3em 2em 2em;
+    font-size: 14px;
+    line-height: 1.4em;
+}
+
+.Third-subcontainer{
+    background-color: var(--White);
+    border-radius: 13px;
+    margin-bottom: 1.4em;
+}
+
+.Third-subcontainer span{
+    color: var(--Very-dark-grayish-blue);
+    font-size: 15px;
+}
+
+.Third-subcontainer p {
+    color: var(--Lighter-gray);
+    padding: 0 3em 2em 2em;
+    font-size: 14px;
+    line-height: 1.4em;
+}
+
+.Third-subcontainer h3{
+    color: var( --Very-dark-grayish-blue);
+    padding: 1em 1.8em 0 1.5em;
+    position: relative;
+    bottom: 1.2em;
+    overflow-wrap: break-word;
+}
+
+.Fourth-subcontainer p {
+    color: var(--Lighter-grayish-blue);
+    padding: 0 3em 2em 2em;
+    font-size: 14px;
+    line-height: 1.4em;
+}
+
+.Fourth-subcontainer h3{
+    color: var( --Light-gray );
+    padding: 1em 1.8em 0 1.5em;
+    position: relative;
+    bottom: 1.2em;
+    overflow-wrap: break-word;
+}
+
+.Fourth-subcontainer{
+    background-color: var(--Very-dark-blackish-blue);
+    border-radius: 13px;
+    margin-bottom: 1.4em;
+}
+
+
+.Fifth-subcontainer{
+    background-color: var(--White);
+    border-radius: 13px;
+    margin-bottom: 1.4em;
+}
+
+.Fifth-subcontainer p {
+    color: var(--Lighter-gray);
+    padding: 0 3em 2em 2em;
+    font-size: 14px;
+    line-height: 1.4em;
+}
+
+.Fifth-subcontainer h3{
+    color: var(--Very-dark-grayish-blue);
+    padding: 1em 1.8em 0 1.5em;
+    position: relative;
+    bottom: 1.2em;
+    overflow-wrap: break-word;
+}
+
+.Fifth-subcontainer span{
+    color: var(--Very-dark-grayish-blue);
+}
+
+
+.daniel {
     width: 30px;
     height: 30px;
     border-radius: 30px;
     border: 2px solid #A775F1;
 }
 
-.float{
-    display: flex;
+.Top-name{
+    position: relative;
+    right: 0.6em;
+    bottom: 0.4em;
+    font-size: 12px;
+} 
+
+.second-name{
+    position: relative;
+    right: 0.6em;
+    bottom: 0.4em;
+    font-size: 12px;
 }
 
+.third-name{
+    position: relative;
+    right: 0.6em;
+    bottom: 0.4em;
+    font-size: 12px;
+}
+
+.fourth-name{
+    position: relative;
+    right: 0.6em;
+    bottom: 0.4em;
+    font-size: 12px;
+}
+
+.fifth-name{
+    position: relative;
+    right: 0.6em;
+    bottom: 0.4em;
+    font-size: 12px;
+}
+
+.pattern {
+   position: absolute; 
+   right: 1.7em; 
+   top: 0.1em;
+   width: 6.4em;
+}
+
+.float{
+    display: flex;
+    padding: 2em 0 0 1.8em;
+    
+}
+
+.float-two{
+    display: flex;
+    padding: 1.5em 0 0 1.8em; 
+}
+
+.float-three{
+    display: flex;
+    padding: 1.5em 0 0 1.8em; 
+}
+
+.float-four{
+    display: flex;
+    padding: 1.5em 0 0 1.8em; 
+}
+
+.float-five{
+    display: flex;
+    padding: 1.5em 0 0 1.8em; 
+}
+
+span{
+    color: white;
+    font-size: 15px;
+}
+
+
+
+@media (min-width: 768px) {
+
+    .media-1{
+        display: flex;
+    }
+
+    .media-2{
+        display: flex;
+    }
+
+
+    .first-subcontainer{
+        margin-right: 2em;
+        width: 70%;
+    }
+
+    .second-subcontainer{
+        width: 30%;
+     }
+
+    .Third-subcontainer{
+       margin-right: 2em;
+       width: 30%;
+    }
+
+    .Fourth-subcontainer{
+        width: 70%;
+    }
+
+    .container{
+        display: flex;
+
+    }
+
+
+    .flex{
+        width: 70%;
+        margin: 0 2em;
+    }
+
+    .flex_2{
+       width: 20%;
+    }
+}
+
+
+/* @media (min-width: 1100px) {
+    .container{
+        position: relative;
+    }
+
+    .super{
+        position: relative;
+        right: 25em;
+        top: 9.9em;
+    }
+
+    .team{
+        position: relative;
+        bottom: 15em;
+    }
+
+    .karma{
+        position: relative;
+        bottom: 15em;
+    }
+
+    .cal{
+        position: relative;
+        left: 25em; 
+        bottom: 39.7em
+    }
+} */

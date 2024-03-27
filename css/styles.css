@@ -121,7 +121,7 @@ body{
 .Fifth-subcontainer{
     background-color: var(--White);
     border-radius: 13px;
-    margin-bottom: 1.4em;
+    flex-grow: 1;
 }
 
 .Fifth-subcontainer p {
@@ -226,7 +226,7 @@ span{
 
 
 
-@media (min-width: 768px) {
+@media (min-width: 1140px) {
 
     .media-1{
         display: flex;
@@ -257,7 +257,6 @@ span{
 
     .container{
         display: flex;
-
     }
 
 
@@ -269,6 +268,11 @@ span{
     .flex_2{
        width: 20%;
     }
+
+   .container > div {
+    flex-grow: 1;
+    overflow: hidden;
+   }
 }
 
 
